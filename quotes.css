@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+   background-image: linear-gradient(to right, rgb(224, 181, 181) , rgb(202, 240, 255));
+
+}
+.container
+{
+    height: 400px;
+    width: 600px;
+    border: 10px double darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3rem;
+    
+}
+#btn
+{
+    height: 40px;
+    width: 300px;
+    margin-top: 2rem;
+    background-color: rgb(181, 213, 240);
+}
+#author
+{
+    margin-left: 20rem;
+    font-size: large;
+    color: white;
+}
+h2
+{
+    background-color: rgb(181, 213, 240);
+    border-bottom: 3px solid;
+}
+#quote
+{
+    color: white;
+    padding-top: 2rem;
+    font-weight: bold;
+}
